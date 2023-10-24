@@ -66,3 +66,30 @@ body {
     font-size: 1rem;
     color: white;
 }
+
+.hide {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.time-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-container h2 {
+    line-height: 60px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.time-container div {
+    font-size: 4rem;
+    color: white;
+}
