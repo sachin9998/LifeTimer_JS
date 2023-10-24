@@ -1,24 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+html,
 body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    line-height: 1.4;
-    scroll-behavior: smooth;
+    font-family: "Oswald", sans-serif;
 }
 
 .background {
+    background-image: url("./images/mountain.jpg");
     height: 100vh;
     width: 100%;
-
-    background-image: url(./images/mountain.jpg);
     background-size: cover;
+
     background-repeat: no-repeat;
 }
 
@@ -29,17 +27,16 @@ body {
 }
 
 .container h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .settings {
     position: absolute;
-    bottom: 20px;
-    right: 30px;
-
+    bottom: 30px;
+    right: 20px;
     display: flex;
-    gap: 1rem;
     align-items: center;
+    gap: 1rem;
 }
 
 .settings .fa-cog {
@@ -47,19 +44,18 @@ body {
     color: white;
 }
 
-.setting-content {
+.settings-content {
     display: flex;
     gap: 1rem;
 }
 
-.setting-content input {
+.settings-content input {
     padding: 0.5rem 1rem;
     font-size: 1rem;
 }
 
-.setting-content button {
+.settings-content button {
     padding: 0.5rem 1rem;
-    font-size: 1rem;
     background-color: green;
     border: none;
     border-radius: 10px;
@@ -69,10 +65,6 @@ body {
 
 .hide {
     display: none;
-}
-
-.center {
-    text-align: center;
 }
 
 .time-container {
@@ -86,7 +78,7 @@ body {
 .time-container h2 {
     line-height: 60px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .time-container div {
